@@ -1,0 +1,7 @@
+js link to tiny: <script src="https://cdn.tiny.cloud/1/zmk331zsbvri5e8933lbib4ej0j5989pmtk5szb0q8p50a3w/tinymce/6/tinymce.min.js" referrerpolicy="origin"></script>
+how to select the text area with tiny:   tinymce.init({ selector: 'textarea' });
+
+mixin scss google font: @mixin fontFamily($font, $wght: 400) {
+                            @import url('https://fonts.googleapis.com/css2?family=' + $font + ':wght@' + $wght + '&display=swap');
+                        }
+                        @include fontFamily('Rubik+Vinyl');
